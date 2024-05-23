@@ -1,12 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600&display=swap");
-
-* {
+body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
-
-body {
 	font-family: "Mulish", sans-serif;
 }
 
@@ -21,6 +16,7 @@ body {
 
 .qrcode__container--parent {
 	display: flex;
+	flex-direction: column;
 	gap: 10px;
 	align-items: center;
 	justify-content: center;
@@ -31,7 +27,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 30%;
+	width: 40%;
 	margin-top: 20px;
 }
 
@@ -69,4 +65,8 @@ body {
 
 .qrcode__download button {
 	margin-top: 10px;
+}
+
+h1 {
+	text-align: center;
 }

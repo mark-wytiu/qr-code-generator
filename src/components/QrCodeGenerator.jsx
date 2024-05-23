@@ -42,14 +42,7 @@ function QrCodeGenerator() {
                 {qrIsVisible && (
                     <div className="qrcode__download">
                         <div className="qrcode__image">
-                            <QRCode value={url} size={300} />
-                        </div>
-                    </div>
-                )}
-                {qrIsVisible && (
-                    <div className="qrcode__download">
-                        <div className="qrcode__image">
-                            <QRCode value={url} size={300} />
+                            <QRCode value={url} size={400} />
                         </div>
                         <button onClick={downloadQRCode}>Download QR Code</button>
                     </div>
