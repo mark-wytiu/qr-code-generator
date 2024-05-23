@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import { useState, useRef } from "react";
 import * as htmlToImage from "html-to-image";
 import QRCode from 'react-qr-code';
-import useRef from 'react-use/lib/useRef';
-import '.index.css';
+import './QrCodeGenerator.css';
 
 
 function QrCodeGenerator() {
